@@ -1,24 +1,37 @@
-// TODO: Schreibe hier eine Variable `name: string` mit Wert "TypeScript" und gib sie zurück
-export function declareVariable() {
-  // TODO
+// === Woche 1: Hello World & Variablen ===
+// Schreibe DEINEN Code in jede Funktion.
+
+/**
+ * Gibt "Hello, World!" zurück.
+ */
+export function greet(): string {
+  // TODO: Gib "Hello, World!" zurück
 }
 
-// TODO: Addiere a und b
-export function add() {
-  // TODO
+/**
+ * Erstellt eine Variable name = "TypeScript" und gibt sie zurück.
+ */
+export function createName(): string {
+  // TODO: Erstelle eine Variable name mit Wert "TypeScript" und gib sie zurück
 }
 
-// TODO: Erstelle ein User-Objekt mit id, name, email
-export function createUser() {
-  // TODO
+/**
+ * Addiert zwei Zahlen und gibt das Ergebnis zurück.
+ */
+export function add(a: number, b: number): number {
+  // TODO: Addiere a und b und gib das Ergebnis zurück
 }
 
-// TODO: Gib "Hello, {name}!" zurück
-export function greetUser() {
-  // TODO
+/**
+ * Gibt true zurück, wenn age >= 18 ist.
+ */
+export function isAdult(age: number): boolean {
+  // TODO: Gib true zurück wenn age >= 18, sonst false
 }
 
-// TODO: Gib "ID: {id}" zurück (id kann string oder number sein)
-export function formatId() {
-  // TODO
+/**
+ * Gibt "Hi, I'm {name} and I'm {age} years old!" zurück.
+ */
+export function introduce(name: string, age: number): string {
+  // TODO: Gib den Satz mit name und age zurück
 }

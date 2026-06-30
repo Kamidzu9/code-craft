@@ -1,11 +1,12 @@
 [workspace]
+resolver = "2"
 members = [
     "week_01_basics",
-    "week_02_ownership_borrowing",
-    "week_03_structs_enums",
-    "week_04_traits_generics",
-    "week_05_lifetimes_errors",
-    "week_06_concurrency",
-    "week_07_unsafe_macros",
-    "week_08_project_system",
+    "week_02_functions",
+    "week_03_conditionals",
+    "week_04_loops",
+    "week_05_collections",
+    "week_06_structs",
+    "week_07_error_handling",
+    "week_08_project_todo",
 ]

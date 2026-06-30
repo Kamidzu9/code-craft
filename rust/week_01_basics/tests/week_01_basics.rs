@@ -2,8 +2,12 @@ use week_01_basics::*;
 
 #[test]
 fn test_greet() {
-    assert_eq!(greet("World"), "Hello, World!");
-    assert_eq!(greet("Rust"), "Hello, Rust!");
+    assert_eq!(greet(), "Hello, World!");
+}
+
+#[test]
+fn test_create_name() {
+    assert_eq!(create_name(), "Rust");
 }
 
 #[test]
@@ -14,23 +18,15 @@ fn test_add() {
 }
 
 #[test]
-fn test_is_even() {
-    assert!(is_even(2));
-    assert!(!is_even(3));
-    assert!(is_even(0));
-    assert!(!is_even(-1));
+fn test_is_adult() {
+    assert!(is_adult(18));
+    assert!(is_adult(25));
+    assert!(!is_adult(17));
+    assert!(!is_adult(0));
 }
 
 #[test]
-fn test_factorial() {
-    assert_eq!(factorial(5), 120);
-    assert_eq!(factorial(0), 1);
-    assert_eq!(factorial(1), 1);
-}
-
-#[test]
-fn test_describe_option() {
-    assert_eq!(describe_option(Some(42)), "Some(42)");
-    assert_eq!(describe_option::<i32>(None), "None");
-    assert_eq!(describe_option(Some("hi")), "Some(hi)");
+fn test_introduce() {
+    assert_eq!(introduce("Alice", 30), "Hi, I'm Alice and I'm 30 years old!");
+    assert_eq!(introduce("Bob", 25), "Hi, I'm Bob and I'm 25 years old!");
 }

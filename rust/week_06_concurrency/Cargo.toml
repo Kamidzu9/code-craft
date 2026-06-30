@@ -1,7 +1,0 @@
-[package]
-name = "week_06_concurrency"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-tokio = { version = "1", features = ["rt", "macros"] }

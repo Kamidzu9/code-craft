@@ -1,5 +1,10 @@
-// TODO: Gib "Hello, {name}!" zurück
-pub fn greet(_name: &str) -> String {
+// TODO: Gib "Hello, World!" zurück
+pub fn greet() -> String {
+    todo!()
+}
+
+// TODO: Erstelle Variable name = "Rust" und gib sie zurück
+pub fn create_name() -> String {
     todo!()
 }
 
@@ -8,17 +13,12 @@ pub fn add(_a: i32, _b: i32) -> i32 {
     todo!()
 }
 
-// TODO: Prüfe ob n gerade ist
-pub fn is_even(_n: i32) -> bool {
+// TODO: Gib true zurück, wenn age >= 18
+pub fn is_adult(_age: i32) -> bool {
     todo!()
 }
 
-// TODO: Berechne n! (Fakultät)
-pub fn factorial(_n: u64) -> u64 {
-    todo!()
-}
-
-// TODO: Beschreibe den Option-Wert als "Some(...)" oder "None"
-pub fn describe_option<T: std::fmt::Display>(_opt: Option<T>) -> String {
+// TODO: Gib "Hi, I'm {name} and I'm {age} years old!" zurück
+pub fn introduce(_name: &str, _age: i32) -> String {
     todo!()
 }
