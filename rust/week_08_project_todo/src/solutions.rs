@@ -1,26 +1,15 @@
-// TODO: Füge die Felder id: u32, text: String und done: bool hinzu
-pub struct TodoItem {
-    pub id: u32,
-    pub text: String,
-    pub done: bool,
-}
-
-// TODO: Füge ein neues Todo hinzu (id = todos.len() + 1, done = false)
-pub fn add_todo(_todos: &mut Vec<TodoItem>, _text: &str) {
-    todo!()
-}
-
-// TODO: Gib nur die text-Felder als Vec<&str> zurück
-pub fn list_todos(_todos: &[TodoItem]) -> Vec<&str> {
-    todo!()
-}
-
-// TODO: Setze done = true für das Todo mit der gegebenen id
-pub fn mark_done(_todos: &mut [TodoItem], _id: u32) {
-    todo!()
-}
-
-// TODO: Entferne das Todo mit der gegebenen id
-pub fn remove_todo(_todos: &mut Vec<TodoItem>, _id: u32) {
-    todo!()
-}
+#[path = "task_01.rs"]
+mod task_01;
+#[path = "task_02.rs"]
+mod task_02;
+#[path = "task_03.rs"]
+mod task_03;
+#[path = "task_04.rs"]
+mod task_04;
+#[path = "task_05.rs"]
+mod task_05;
+pub use task_01::*;
+pub use task_02::*;
+pub use task_03::*;
+pub use task_04::*;
+pub use task_05::*;

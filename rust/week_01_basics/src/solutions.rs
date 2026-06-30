@@ -1,24 +1,15 @@
-// TODO: Gib "Hello, World!" zurück
-pub fn greet() -> String {
-    todo!()
-}
-
-// TODO: Erstelle Variable name = "Rust" und gib sie zurück
-pub fn create_name() -> String {
-    todo!()
-}
-
-// TODO: Addiere a und b
-pub fn add(_a: i32, _b: i32) -> i32 {
-    todo!()
-}
-
-// TODO: Gib true zurück, wenn age >= 18
-pub fn is_adult(_age: i32) -> bool {
-    todo!()
-}
-
-// TODO: Gib "Hi, I'm {name} and I'm {age} years old!" zurück
-pub fn introduce(_name: &str, _age: i32) -> String {
-    todo!()
-}
+#[path = "task_01.rs"]
+mod task_01;
+#[path = "task_02.rs"]
+mod task_02;
+#[path = "task_03.rs"]
+mod task_03;
+#[path = "task_04.rs"]
+mod task_04;
+#[path = "task_05.rs"]
+mod task_05;
+pub use task_01::*;
+pub use task_02::*;
+pub use task_03::*;
+pub use task_04::*;
+pub use task_05::*;

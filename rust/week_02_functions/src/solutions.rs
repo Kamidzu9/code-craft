@@ -1,24 +1,15 @@
-// TODO: Gib "Hello, {name}!" zurück
-pub fn say_hello(_name: &str) -> String {
-    todo!()
-}
-
-// TODO: Gib width * height zurück
-pub fn rectangle_area(_width: f64, _height: f64) -> f64 {
-    todo!()
-}
-
-// TODO: Gib true zurück, wenn num > 0
-pub fn is_positive(_num: i32) -> bool {
-    todo!()
-}
-
-// TODO: Gib die größere der beiden Zahlen zurück
-pub fn max_num(_a: i32, _b: i32) -> i32 {
-    todo!()
-}
-
-// TODO: "hot" wenn > 30, "warm" wenn > 15, sonst "cold"
-pub fn describe_temperature(_temp: i32) -> String {
-    todo!()
-}
+#[path = "task_01.rs"]
+mod task_01;
+#[path = "task_02.rs"]
+mod task_02;
+#[path = "task_03.rs"]
+mod task_03;
+#[path = "task_04.rs"]
+mod task_04;
+#[path = "task_05.rs"]
+mod task_05;
+pub use task_01::*;
+pub use task_02::*;
+pub use task_03::*;
+pub use task_04::*;
+pub use task_05::*;

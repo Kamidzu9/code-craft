@@ -1,24 +1,15 @@
-// TODO: Gib das erste Element oder None zurück
-pub fn first_element(_arr: &[i32]) -> Option<i32> {
-    todo!()
-}
-
-// TODO: Gib neuen Vec mit val am Ende zurück
-pub fn add_element(_arr: &[i32], _val: i32) -> Vec<i32> {
-    todo!()
-}
-
-// TODO: Gib Vec zurück, in dem jedes Element × 2 ist
-pub fn double(_arr: &[i32]) -> Vec<i32> {
-    todo!()
-}
-
-// TODO: Gib das größte Element oder None zurück (Schleife)
-pub fn find_max(_arr: &[i32]) -> Option<i32> {
-    todo!()
-}
-
-// TODO: Gib nur die geraden Zahlen zurück
-pub fn even_numbers(_arr: &[i32]) -> Vec<i32> {
-    todo!()
-}
+#[path = "task_01.rs"]
+mod task_01;
+#[path = "task_02.rs"]
+mod task_02;
+#[path = "task_03.rs"]
+mod task_03;
+#[path = "task_04.rs"]
+mod task_04;
+#[path = "task_05.rs"]
+mod task_05;
+pub use task_01::*;
+pub use task_02::*;
+pub use task_03::*;
+pub use task_04::*;
+pub use task_05::*;

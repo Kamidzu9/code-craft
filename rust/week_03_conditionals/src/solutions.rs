@@ -1,24 +1,15 @@
-// TODO: Gib true zurück, wenn age >= 18
-pub fn can_vote(_age: i32) -> bool {
-    todo!()
-}
-
-// TODO: Gib "A" (90+), "B" (80+), "C" (70+), "D" (60+) oder "F" zurück
-pub fn grade(_score: i32) -> String {
-    todo!()
-}
-
-// TODO: Gib true zurück, wenn username "admin" UND password "secret"
-pub fn login(_username: &str, _password: &str) -> bool {
-    todo!()
-}
-
-// TODO: Gib den absoluten Wert von n zurück
-pub fn absolute(_n: i32) -> i32 {
-    todo!()
-}
-
-// TODO: "dog" -> "woof", "cat" -> "meow", sonst "unknown"
-pub fn animal_sound(_animal: &str) -> String {
-    todo!()
-}
+#[path = "task_01.rs"]
+mod task_01;
+#[path = "task_02.rs"]
+mod task_02;
+#[path = "task_03.rs"]
+mod task_03;
+#[path = "task_04.rs"]
+mod task_04;
+#[path = "task_05.rs"]
+mod task_05;
+pub use task_01::*;
+pub use task_02::*;
+pub use task_03::*;
+pub use task_04::*;
+pub use task_05::*;
