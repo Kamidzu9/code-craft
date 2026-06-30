@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = ["week-01-basics/tests", "week-02-data-structures/tests", "week-03-oop/tests", "week-04-modules-packages/tests", "week-05-advanced/tests", "week-06-project-cli/tests", "week-07-project-web/tests", "week-08-project-data/tests"]
