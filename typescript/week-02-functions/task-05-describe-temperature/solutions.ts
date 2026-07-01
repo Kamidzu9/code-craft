@@ -1,4 +1,15 @@
 export function describeTemperature(temp: number): string {
   // TODO: Gib "hot", "warm" oder "cold" zurück
-  return "";
+  if ( temp > 30 )
+  {
+    return "hot";
+  }
+  else if ( temp > 15 )
+  {
+    return "warm";
+  }
+  else
+  {
+    return "cold"
+  }
 }
