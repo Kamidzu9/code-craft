@@ -1,4 +1,4 @@
 export function sayHello(name: string): string {
   // TODO: Gib "Hello, {name}!" zurück
-  return "";
+  return `Hello, ${name}!`;
 }
