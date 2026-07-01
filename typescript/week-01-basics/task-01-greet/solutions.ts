@@ -1,4 +1,4 @@
 export function greet(): string {
   // TODO: Gib "Hello, World!" zurück
-  return "Hello, World!";
+  return "";
 }
